@@ -1,6 +1,10 @@
 ## Assign an inverse matrix to an object cached in an environment using <<- operator
 
-## makeCacheMatrix takes in an inversible matrix and caches in an environment 
+## makeCacheMatrix takes in an inversible matrix and returns a list of functions
+## set the value of the matrix
+## get the value of the matrix
+## set the value of the inverse matrix
+## get the value of the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
